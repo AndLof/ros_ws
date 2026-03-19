@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/detail/acquire_lease__type_support.hpp

@@ -1,0 +1,1 @@
+/ros_ws/build/synchros2_tutorials_interfaces_example/rosidl_cmake/rosidl_cmake-extras.cmake

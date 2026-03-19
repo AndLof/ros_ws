@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/detail/robot_command__struct.h

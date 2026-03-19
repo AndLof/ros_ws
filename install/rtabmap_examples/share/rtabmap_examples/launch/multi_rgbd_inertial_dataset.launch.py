@@ -1,0 +1,1 @@
+/ros_ws/src/rtabmap_ros/rtabmap_examples/launch/multi_rgbd_inertial_dataset.launch.py

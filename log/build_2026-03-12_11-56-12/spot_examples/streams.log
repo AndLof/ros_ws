@@ -1,0 +1,32 @@
+[0.602s] Invoking command in '/ros_ws/build/spot_examples': AMENT_PREFIX_PATH=/ros_ws/install/synchros2:${AMENT_PREFIX_PATH} PYTHONPATH=/ros_ws/build/spot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/build/spot_examples/build --no-deps symlink_data
+[0.852s] running develop
+[1.006s] running egg_info
+[1.006s] creating spot_examples.egg-info
+[1.007s] writing spot_examples.egg-info/PKG-INFO
+[1.007s] writing dependency_links to spot_examples.egg-info/dependency_links.txt
+[1.008s] writing entry points to spot_examples.egg-info/entry_points.txt
+[1.008s] writing requirements to spot_examples.egg-info/requires.txt
+[1.008s] writing top-level names to spot_examples.egg-info/top_level.txt
+[1.008s] writing manifest file 'spot_examples.egg-info/SOURCES.txt'
+[1.011s] reading manifest file 'spot_examples.egg-info/SOURCES.txt'
+[1.012s] writing manifest file 'spot_examples.egg-info/SOURCES.txt'
+[1.013s] running build_ext
+[1.013s] Creating /ros_ws/install/spot_examples/lib/python3.10/site-packages/spot-examples.egg-link (link to .)
+[1.014s] Installing arm_simple script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.014s] Installing arm_with_body_follow script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.014s] Installing batch_trajectory script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.014s] Installing hello_spot script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] Installing send_inverse_kinematics_requests script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] Installing simple_sub script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] Installing spot_in_circle script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] Installing walk_forward script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] Installing wasd script to /ros_ws/install/spot_examples/lib/spot_examples
+[1.015s] 
+[1.015s] Installed /ros_ws/build/spot_examples
+[1.015s] running symlink_data
+[1.015s] creating /ros_ws/install/spot_examples/share/ament_index
+[1.016s] creating /ros_ws/install/spot_examples/share/ament_index/resource_index
+[1.016s] creating /ros_ws/install/spot_examples/share/ament_index/resource_index/packages
+[1.016s] symbolically linking /ros_ws/build/spot_examples/resource/spot_examples -> /ros_ws/install/spot_examples/share/ament_index/resource_index/packages
+[1.016s] symbolically linking /ros_ws/build/spot_examples/package.xml -> /ros_ws/install/spot_examples/share/spot_examples
+[1.040s] Invoked command in '/ros_ws/build/spot_examples' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/synchros2:${AMENT_PREFIX_PATH} PYTHONPATH=/ros_ws/build/spot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/build/spot_examples/build --no-deps symlink_data

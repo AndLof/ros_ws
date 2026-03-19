@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_cmake/srv/ListLogpoints_Request.msg

@@ -1,0 +1,1 @@
+/ros_ws/src/rtabmap_ros/rtabmap_examples/launch/depthai_color.launch.py

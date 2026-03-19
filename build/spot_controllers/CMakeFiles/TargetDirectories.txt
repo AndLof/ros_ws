@@ -1,0 +1,15 @@
+/ros_ws/build/spot_controllers/CMakeFiles/uninstall.dir
+/ros_ws/build/spot_controllers/CMakeFiles/spot_controllers_uninstall.dir
+/ros_ws/build/spot_controllers/CMakeFiles/forward_state_controller_parameters.dir
+/ros_ws/build/spot_controllers/CMakeFiles/spot_joint_controller_parameters.dir
+/ros_ws/build/spot_controllers/CMakeFiles/foot_state_broadcaster_parameters.dir
+/ros_ws/build/spot_controllers/CMakeFiles/spot_pose_broadcaster_parameters.dir
+/ros_ws/build/spot_controllers/CMakeFiles/spot_imu_broadcaster_parameters.dir
+/ros_ws/build/spot_controllers/CMakeFiles/spot_controllers.dir
+/ros_ws/build/spot_controllers/CMakeFiles/test.dir
+/ros_ws/build/spot_controllers/CMakeFiles/edit_cache.dir
+/ros_ws/build/spot_controllers/CMakeFiles/rebuild_cache.dir
+/ros_ws/build/spot_controllers/CMakeFiles/list_install_components.dir
+/ros_ws/build/spot_controllers/CMakeFiles/install.dir
+/ros_ws/build/spot_controllers/CMakeFiles/install/local.dir
+/ros_ws/build/spot_controllers/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/ros_ws/src/spot_rviz_plugins/include/spot_rviz_plugins/spot_panel.hpp

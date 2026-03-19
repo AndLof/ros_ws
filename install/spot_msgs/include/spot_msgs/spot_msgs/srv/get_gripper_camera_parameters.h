@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/get_gripper_camera_parameters.h

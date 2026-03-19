@@ -1,0 +1,89 @@
+[0.009s] Invoking command in '/ros_ws/build/spot_hardware_interface': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_hardware_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_hardware_interface
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.218s] -- Detecting CXX compile features - done
+[0.221s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.389s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.423s] -- Found bondcpp: 4.1.2 (/opt/ros/humble/share/bondcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.687s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Looking for pthread.h
+[0.788s] -- Looking for pthread.h - found
+[0.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.841s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.842s] -- Found Threads: TRUE  
+[0.910s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.029s] -- Found bosdyn_api_msgs: 5.0.1 (/opt/ros/humble/share/bosdyn_api_msgs/cmake)
+[1.089s] -- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+[1.099s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.103s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.192s] -- Checking for module 'grpc'
+[1.202s] --   Found grpc, version 10.0.0
+[1.225s] -- Checking for module 'grpc++'
+[1.234s] --   Found grpc++, version 1.30.2
+[1.260s] -- CMake is running /opt/spot-cpp-sdk/lib/cmake/bosdyn/UseInstallbosdyn.cmake
+[1.268s] -- Found spot_msgs: 0.0.0 (/ros_ws/install/spot_msgs/share/spot_msgs/cmake)
+[1.350s] -- Found tl_expected: 1.2.0 (/opt/ros/humble/share/tl_expected/cmake)
+[1.360s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.363s] -- CMake is running /opt/spot-cpp-sdk/lib/cmake/bosdyn/UseInstallbosdyn.cmake
+[1.424s] -- Configuring done
+[1.441s] -- Generating done
+[1.446s] -- Build files have been written to: /ros_ws/build/spot_hardware_interface
+[1.458s] Invoked command in '/ros_ws/build/spot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_hardware_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_hardware_interface
+[1.458s] Invoking command in '/ros_ws/build/spot_hardware_interface': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_hardware_interface
+[1.494s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_hardware_interface.dir/src/spot_hardware_interface.cpp.o[0m
+[16.421s] [ 66%] [32mBuilding CXX object CMakeFiles/spot_hardware_interface.dir/src/spot_leasing_interface.cpp.o[0m
+[61.765s] [100%] [32m[1mLinking CXX shared library libspot_hardware_interface.so[0m
+[63.423s] [100%] Built target spot_hardware_interface
+[63.431s] Invoked command in '/ros_ws/build/spot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_hardware_interface
+[63.433s] Invoking command in '/ros_ws/build/spot_hardware_interface': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_hardware_interface
+[63.439s] -- Install configuration: "Release"
+[63.439s] -- Execute custom install script
+[63.440s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface//spot_hardware_interface.xml
+[63.446s] -- Symlinking: /ros_ws/install/spot_hardware_interface/include/spot_hardware_interface/spot_constants.hpp
+[63.452s] -- Symlinking: /ros_ws/install/spot_hardware_interface/include/spot_hardware_interface/spot_hardware_interface.hpp
+[63.458s] -- Symlinking: /ros_ws/install/spot_hardware_interface/include/spot_hardware_interface/spot_leasing_interface.hpp
+[63.463s] -- Symlinking: /ros_ws/install/spot_hardware_interface/include/spot_hardware_interface/visibility_control.h
+[63.470s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/library_path.sh
+[63.475s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/library_path.dsv
+[63.481s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/spot_hardware_interface
+[63.487s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/spot_hardware_interface
+[63.493s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/ament_prefix_path.sh
+[63.499s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/ament_prefix_path.dsv
+[63.505s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/path.sh
+[63.511s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/environment/path.dsv
+[63.518s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/local_setup.bash
+[63.524s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/local_setup.sh
+[63.530s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/local_setup.zsh
+[63.537s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/local_setup.dsv
+[63.543s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/package.dsv
+[63.548s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/ament_index/resource_index/packages/spot_hardware_interface
+[63.555s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/spot_hardware_interface
+[63.561s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[63.567s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.573s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/spot_hardware_interfaceConfig.cmake
+[63.579s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/spot_hardware_interfaceConfig-version.cmake
+[63.585s] -- Symlinking: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/package.xml
+[63.591s] -- Installing: /ros_ws/install/spot_hardware_interface/lib/libspot_hardware_interface.so
+[63.592s] -- Set runtime path of "/ros_ws/install/spot_hardware_interface/lib/libspot_hardware_interface.so" to ""
+[63.592s] -- Installing: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/export_spot_hardware_interfaceExport.cmake
+[63.592s] -- Installing: /ros_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake/export_spot_hardware_interfaceExport-release.cmake
+[63.594s] Invoked command in '/ros_ws/build/spot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_hardware_interface

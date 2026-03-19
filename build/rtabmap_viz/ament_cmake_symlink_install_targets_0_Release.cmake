@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros_ws/build/rtabmap_viz/rtabmap_viz" "/ros_ws/build/rtabmap_viz/rgbd_image_viewer" "TARGETS" "rtabmap_viz" "rgbd_image_viewer" "DESTINATION" "lib/rtabmap_viz")

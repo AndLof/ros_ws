@@ -1,0 +1,1 @@
+/ros_ws/src/spot_driver/include/spot_driver/object_sync/object_synchronizer_node.hpp

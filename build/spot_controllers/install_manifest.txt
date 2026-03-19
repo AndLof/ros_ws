@@ -1,0 +1,3 @@
+/ros_ws/install/spot_controllers/lib/libspot_controllers.so
+/ros_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport.cmake
+/ros_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport-release.cmake

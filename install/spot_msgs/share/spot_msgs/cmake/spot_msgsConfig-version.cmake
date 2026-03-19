@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/ament_cmake_core/spot_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/msg/battery_state_array.hpp

@@ -1,0 +1,6 @@
+/ros_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so
+/ros_ws/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+/ros_ws/install/rtabmap_util/include/rtabmap_util/visibility.h
+/ros_ws/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+/ros_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+/ros_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-release.cmake

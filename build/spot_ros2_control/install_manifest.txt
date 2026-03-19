@@ -1,0 +1,5 @@
+/ros_ws/install/spot_ros2_control/lib/spot_ros2_control/set_gripper_gains
+/ros_ws/install/spot_ros2_control/lib/spot_ros2_control/mixed_level_example
+/ros_ws/install/spot_ros2_control/lib/libspot_ros2_control.so
+/ros_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport.cmake
+/ros_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport-release.cmake

@@ -1,0 +1,4 @@
+-DROS_PACKAGE_NAME="spot_rviz_plugins"
+-o
+/ros_ws/build/spot_rviz_plugins/include/spot_rviz_plugins/moc_spot_panel.cpp
+/ros_ws/src/spot_rviz_plugins/include/spot_rviz_plugins/spot_panel.hpp

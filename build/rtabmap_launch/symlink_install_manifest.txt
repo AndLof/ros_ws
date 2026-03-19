@@ -1,0 +1,17 @@
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/launch/config/rgbd.rviz
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/launch/rtabmap.launch.py
+/ros_ws/install/rtabmap_launch/share/ament_index/resource_index/package_run_dependencies/rtabmap_launch
+/ros_ws/install/rtabmap_launch/share/ament_index/resource_index/parent_prefix_path/rtabmap_launch
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/environment/ament_prefix_path.sh
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/environment/ament_prefix_path.dsv
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/environment/path.sh
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/environment/path.dsv
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/local_setup.bash
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/local_setup.sh
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/local_setup.zsh
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/local_setup.dsv
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/package.dsv
+/ros_ws/install/rtabmap_launch/share/ament_index/resource_index/packages/rtabmap_launch
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/cmake/rtabmap_launchConfig.cmake
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/cmake/rtabmap_launchConfig-version.cmake
+/ros_ws/install/rtabmap_launch/share/rtabmap_launch/package.xml

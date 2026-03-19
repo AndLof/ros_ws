@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating rtabmap_lidar_custom.egg-info
+writing rtabmap_lidar_custom.egg-info/PKG-INFO
+writing dependency_links to rtabmap_lidar_custom.egg-info/dependency_links.txt
+writing entry points to rtabmap_lidar_custom.egg-info/entry_points.txt
+writing requirements to rtabmap_lidar_custom.egg-info/requires.txt
+writing top-level names to rtabmap_lidar_custom.egg-info/top_level.txt
+writing manifest file 'rtabmap_lidar_custom.egg-info/SOURCES.txt'
+reading manifest file 'rtabmap_lidar_custom.egg-info/SOURCES.txt'
+writing manifest file 'rtabmap_lidar_custom.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages/rtabmap-lidar-custom.egg-link (link to .)
+
+Installed /ros_ws/build/rtabmap_lidar_custom
+running symlink_data
+creating /ros_ws/install/rtabmap_lidar_custom/share/ament_index
+creating /ros_ws/install/rtabmap_lidar_custom/share/ament_index/resource_index
+creating /ros_ws/install/rtabmap_lidar_custom/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/build/rtabmap_lidar_custom/resource/rtabmap_lidar_custom -> /ros_ws/install/rtabmap_lidar_custom/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/build/rtabmap_lidar_custom/package.xml -> /ros_ws/install/rtabmap_lidar_custom/share/rtabmap_lidar_custom
+creating /ros_ws/install/rtabmap_lidar_custom/share/rtabmap_lidar_custom/launch
+symbolically linking /ros_ws/build/rtabmap_lidar_custom/launch/lidar_slam.launch.py -> /ros_ws/install/rtabmap_lidar_custom/share/rtabmap_lidar_custom/launch

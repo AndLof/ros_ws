@@ -1,0 +1,180 @@
+[0.019s] Invoking command in '/ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_slam
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.426s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.504s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.509s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.618s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[0.649s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.686s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.689s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.713s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.755s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.758s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.771s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.774s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.781s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Looking for pthread.h
+[0.862s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.926s] -- Found Threads: TRUE  
+[0.969s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.988s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.999s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[1.004s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.073s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.091s] -- Found rtabmap_msgs: 0.22.1 (/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[1.109s] -- Found rtabmap_util: 0.22.1 (/ros_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[1.248s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.250s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.250s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.291s] -- Checking for module 'eigen3'
+[1.300s] --   Found eigen3, version 3.4.0
+[1.323s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.323s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.359s] -- Checking for module 'flann'
+[1.370s] --   Found flann, version 1.9.1
+[1.397s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.398s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.110s] -- Checking for module 'libusb-1.0'
+[2.120s] --   Found libusb-1.0, version 1.0.25
+[2.145s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.145s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.197s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.343s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.349s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.356s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.492s] -- Found Qhull version 8.0.2
+[2.657s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.806s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.807s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.807s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.808s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.809s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.809s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.810s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.810s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.811s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.811s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.812s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.813s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.813s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.814s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.815s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.816s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.817s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.818s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.819s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.819s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.820s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.820s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.821s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.821s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.822s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.921s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)
+[2.947s] -- Found aruco_msgs: 5.0.5 (/opt/ros/humble/share/aruco_msgs/cmake)
+[2.981s] [33mCMake Warning at CMakeLists.txt:42 (find_package):
+[2.982s]   By not providing "Findaruco_markers_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.982s]   project has asked CMake to find a package configuration file provided by
+[2.982s]   "aruco_markers_msgs", but CMake did not find one.
+[2.982s] 
+[2.982s]   Could not find a package configuration file provided by
+[2.982s]   "aruco_markers_msgs" with any of the following names:
+[2.982s] 
+[2.982s]     aruco_markers_msgsConfig.cmake
+[2.982s]     aruco_markers_msgs-config.cmake
+[2.982s] 
+[2.982s]   Add the installation prefix of "aruco_markers_msgs" to CMAKE_PREFIX_PATH or
+[2.982s]   set "aruco_markers_msgs_DIR" to a directory containing one of the above
+[2.983s]   files.  If "aruco_markers_msgs" provides a separate development package or
+[2.983s]   SDK, be sure it has been installed.
+[2.983s] 
+[2.983s] [0m
+[2.988s] -- Found aruco_opencv_msgs: 2.4.1 (/opt/ros/humble/share/aruco_opencv_msgs/cmake)
+[3.024s] [33mCMake Warning at CMakeLists.txt:44 (find_package):
+[3.024s]   By not providing "Findros2_aruco_interfaces.cmake" in CMAKE_MODULE_PATH
+[3.024s]   this project has asked CMake to find a package configuration file provided
+[3.024s]   by "ros2_aruco_interfaces", but CMake did not find one.
+[3.025s] 
+[3.025s]   Could not find a package configuration file provided by
+[3.025s]   "ros2_aruco_interfaces" with any of the following names:
+[3.025s] 
+[3.025s]     ros2_aruco_interfacesConfig.cmake
+[3.025s]     ros2_aruco_interfaces-config.cmake
+[3.025s] 
+[3.025s]   Add the installation prefix of "ros2_aruco_interfaces" to CMAKE_PREFIX_PATH
+[3.025s]   or set "ros2_aruco_interfaces_DIR" to a directory containing one of the
+[3.025s]   above files.  If "ros2_aruco_interfaces" provides a separate development
+[3.025s]   package or SDK, be sure it has been installed.
+[3.025s] 
+[3.025s] [0m
+[3.025s] -- WITH apriltag_msgs
+[3.025s] -- WITH aruco_msgs
+[3.025s] -- WITH aruco_opencv_msgs
+[3.025s] -- WITH nav2_msgs
+[3.108s] -- Configuring done
+[3.204s] -- Generating done
+[3.224s] -- Build files have been written to: /ros_ws/build/rtabmap_slam
+[3.244s] Invoked command in '/ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_slam
+[3.247s] Invoking command in '/ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/rtabmap_slam
+[3.290s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_slam_plugins.dir/src/CoreWrapper.cpp.o[0m
+[114.141s] [ 50%] [32m[1mLinking CXX shared library librtabmap_slam_plugins.so[0m
+[117.566s] [ 50%] Built target rtabmap_slam_plugins
+[117.585s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_node.dir/src/CoreNode.cpp.o[0m
+[130.550s] [100%] [32m[1mLinking CXX executable rtabmap[0m
+[132.441s] [100%] Built target rtabmap_node
+[132.451s] Invoked command in '/ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/rtabmap_slam
+[132.453s] Invoking command in '/ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/rtabmap_slam
+[132.458s] -- Install configuration: "Release"
+[132.459s] -- Execute custom install script
+[132.459s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.sh
+[132.466s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.dsv
+[132.472s] -- Symlinking: /ros_ws/install/rtabmap_slam/lib/rtabmap_slam/rtabmap
+[132.479s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/ament_index/resource_index/package_run_dependencies/rtabmap_slam
+[132.485s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/ament_index/resource_index/parent_prefix_path/rtabmap_slam
+[132.492s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.sh
+[132.499s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.dsv
+[132.506s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.sh
+[132.513s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.dsv
+[132.520s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.bash
+[132.526s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.sh
+[132.533s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.zsh
+[132.539s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.dsv
+[132.547s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/package.dsv
+[132.553s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/ament_index/resource_index/packages/rtabmap_slam
+[132.560s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/ament_index/resource_index/rclcpp_components/rtabmap_slam
+[132.567s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+[132.572s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[132.579s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_targets-extras.cmake
+[132.585s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_libraries-extras.cmake
+[132.591s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+[132.599s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake
+[132.605s] -- Symlinking: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/package.xml
+[132.610s] -- Installing: /ros_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+[132.619s] -- Set runtime path of "/ros_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so" to ""
+[132.619s] -- Installing: /ros_ws/install/rtabmap_slam/include
+[132.619s] -- Installing: /ros_ws/install/rtabmap_slam/include/rtabmap_slam
+[132.620s] -- Installing: /ros_ws/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+[132.620s] -- Installing: /ros_ws/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+[132.620s] -- Installing: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+[132.620s] -- Installing: /ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-release.cmake
+[132.622s] Invoked command in '/ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/rtabmap_slam

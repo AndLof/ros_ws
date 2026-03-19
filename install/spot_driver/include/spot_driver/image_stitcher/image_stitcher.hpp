@@ -1,0 +1,1 @@
+/ros_ws/src/spot_driver/include/spot_driver/image_stitcher/image_stitcher.hpp

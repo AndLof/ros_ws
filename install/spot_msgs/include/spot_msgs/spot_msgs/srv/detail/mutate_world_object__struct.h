@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/detail/mutate_world_object__struct.h

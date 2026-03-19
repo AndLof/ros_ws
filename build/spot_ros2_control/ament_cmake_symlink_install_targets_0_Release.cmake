@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros_ws/build/spot_ros2_control/noarm_squat" "/ros_ws/build/spot_ros2_control/wiggle_arm" "/ros_ws/build/spot_ros2_control/joint_command_passthrough" "TARGETS" "noarm_squat" "wiggle_arm" "joint_command_passthrough" "DESTINATION" "lib/spot_ros2_control")

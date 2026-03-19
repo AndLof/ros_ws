@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/action/arm_surface_contact.h

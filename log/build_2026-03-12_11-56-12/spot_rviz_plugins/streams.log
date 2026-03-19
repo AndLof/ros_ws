@@ -1,0 +1,125 @@
+[0.009s] Invoking command in '/ros_ws/build/spot_rviz_plugins': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_rviz_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_rviz_plugins
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.425s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.433s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.487s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[0.584s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.591s] -- Found spot_msgs: 0.0.0 (/ros_ws/install/spot_msgs/share/spot_msgs/cmake)
+[0.668s] -- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+[0.784s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.788s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.823s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.825s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.849s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.887s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.898s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.901s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.907s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.923s] -- Found Threads: TRUE  
+[0.959s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.051s] -- Checking for module 'grpc'
+[1.060s] --   Found grpc, version 10.0.0
+[1.083s] -- Checking for module 'grpc++'
+[1.091s] --   Found grpc++, version 1.30.2
+[1.118s] -- CMake is running /opt/spot-cpp-sdk/lib/cmake/bosdyn/UseInstallbosdyn.cmake
+[1.235s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[1.250s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.258s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.259s] -- Found OGRE
+[1.259s] --   static     : OFF
+[1.259s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.259s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.259s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.259s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.259s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.259s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.260s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.260s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.260s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.260s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.260s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.260s] -- Could not find freeimage library
+[1.274s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.277s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.338s] -- Found X11: /usr/include   
+[1.338s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.391s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.391s] -- Looking for gethostbyname
+[1.440s] -- Looking for gethostbyname - found
+[1.440s] -- Looking for connect
+[1.489s] -- Looking for connect - found
+[1.489s] -- Looking for remove
+[1.539s] -- Looking for remove - found
+[1.539s] -- Looking for shmat
+[1.589s] -- Looking for shmat - found
+[1.589s] -- Looking for IceConnectionNumber in ICE
+[1.639s] -- Looking for IceConnectionNumber in ICE - found
+[1.705s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.728s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.894s] -- Configuring done
+[1.928s] -- Generating done
+[1.934s] -- Build files have been written to: /ros_ws/build/spot_rviz_plugins
+[1.947s] Invoked command in '/ros_ws/build/spot_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_rviz_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_rviz_plugins
+[1.949s] Invoking command in '/ros_ws/build/spot_rviz_plugins': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_rviz_plugins
+[1.987s] [ 16%] [34m[1mAutomatic MOC for target spot_rviz_plugins[0m
+[2.014s] [ 16%] Built target spot_rviz_plugins_autogen
+[2.021s] [ 33%] [34m[1mGenerating include/spot_rviz_plugins/moc_spot_panel.cpp[0m
+[2.039s] [ 50%] [32mBuilding CXX object CMakeFiles/spot_rviz_plugins.dir/spot_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[2.054s] [ 66%] [32mBuilding CXX object CMakeFiles/spot_rviz_plugins.dir/src/spot_panel.cpp.o[0m
+[27.570s] [ 83%] [32mBuilding CXX object CMakeFiles/spot_rviz_plugins.dir/include/spot_rviz_plugins/moc_spot_panel.cpp.o[0m
+[31.578s] [100%] [32m[1mLinking CXX shared library libspot_rviz_plugins.so[0m
+[32.110s] [100%] Built target spot_rviz_plugins
+[32.118s] Invoked command in '/ros_ws/build/spot_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_rviz_plugins
+[32.120s] Invoking command in '/ros_ws/build/spot_rviz_plugins': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_rviz_plugins
+[32.125s] -- Install configuration: "Release"
+[32.125s] -- Execute custom install script
+[32.125s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/rviz_common_plugins.xml
+[32.133s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/include/spot_rviz_plugins/spot_panel.hpp
+[32.139s] -- Up-to-date symlink: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/rviz_common_plugins.xml
+[32.140s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/resource/spot_panel.ui
+[32.145s] -- Up-to-date symlink: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins//rviz_common_plugins.xml
+[32.146s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/spot_rviz_plugins
+[32.153s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/spot_rviz_plugins
+[32.158s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/environment/ament_prefix_path.sh
+[32.164s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/environment/ament_prefix_path.dsv
+[32.170s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/environment/path.sh
+[32.176s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/environment/path.dsv
+[32.182s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/local_setup.bash
+[32.188s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/local_setup.sh
+[32.193s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/local_setup.zsh
+[32.199s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/local_setup.dsv
+[32.205s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/package.dsv
+[32.211s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/ament_index/resource_index/packages/spot_rviz_plugins
+[32.218s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/spot_rviz_plugins
+[32.224s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.230s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[32.237s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/spot_rviz_pluginsConfig.cmake
+[32.243s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/spot_rviz_pluginsConfig-version.cmake
+[32.250s] -- Symlinking: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/package.xml
+[32.256s] -- Installing: /ros_ws/install/spot_rviz_plugins/lib/libspot_rviz_plugins.so
+[32.258s] -- Set runtime path of "/ros_ws/install/spot_rviz_plugins/lib/libspot_rviz_plugins.so" to ""
+[32.258s] -- Installing: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/export_spot_rviz_pluginsExport.cmake
+[32.258s] -- Installing: /ros_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/export_spot_rviz_pluginsExport-release.cmake
+[32.260s] Invoked command in '/ros_ws/build/spot_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_rviz_plugins

@@ -1,0 +1,1 @@
+/ros_ws/build/spot_ros2_control/ament_cmake_core/spot_ros2_controlConfig-version.cmake

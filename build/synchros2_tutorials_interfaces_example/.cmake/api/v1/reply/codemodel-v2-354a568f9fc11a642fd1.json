@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-df9b45b404596480700f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "synchros2_tutorials_interfaces_example__py",
+					"jsonFile" : "directory-synchros2_tutorials_interfaces_example__py-Release-6a5443a9ab53baa983e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/ros_ws/build/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "synchros2_tutorials_interfaces_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_synchros2_tutorials_interfaces_example_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_synchros2_tutorials_interfaces_example_egg-Release-97fad33bd912a06c9481.json",
+					"name" : "ament_cmake_python_build_synchros2_tutorials_interfaces_example_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_synchros2_tutorials_interfaces_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_synchros2_tutorials_interfaces_example-Release-fec9022998ec14b0beec.json",
+					"name" : "ament_cmake_python_symlink_synchros2_tutorials_interfaces_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example-Release-f18f1c5e93624569917a.json",
+					"name" : "synchros2_tutorials_interfaces_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__cpp-Release-f48f9a90d9f496e7b0af.json",
+					"name" : "synchros2_tutorials_interfaces_example__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "synchros2_tutorials_interfaces_example__py::@86f8c1f8daf6d7a8517e",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__py-Release-f69b2c45a8a4a0908d8b.json",
+					"name" : "synchros2_tutorials_interfaces_example__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_generator_c-Release-b560c23da9f88ab9a4e2.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_generator_py-Release-666a001403f0f20f8f85.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_c-Release-6b286bf195acc9ce6e84.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_c__pyext-Release-029924debe06aafa010e.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp-Release-b0c6d7cd1db978a04ba0.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c-Release-3dd29d0eb8df8f5c5011.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c__pyext-Release-c51a34c8579c27824a21.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp-Release-b8b79bea90812cf1bafa.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c-Release-185c66c88b71bdd450d0.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c__pyext-Release-a5fe61155ffa0c59f681.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp-Release-a9e19c7ad28363035242.json",
+					"name" : "synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchros2_tutorials_interfaces_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchros2_tutorials_interfaces_example_uninstall-Release-751a55e8065e11f9acec.json",
+					"name" : "synchros2_tutorials_interfaces_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-cd66d459d2785bb28cf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros_ws/build/synchros2_tutorials_interfaces_example",
+		"source" : "/ros_ws/src/ros_utilities/synchros2_tutorials_interfaces_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,78 @@
+[0.047s] Invoking command in '/ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_demos -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_demos
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.445s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.538s] -- Configuring done
+[0.540s] -- Generating done
+[0.541s] -- Build files have been written to: /ros_ws/build/rtabmap_demos
+[0.546s] Invoked command in '/ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_demos -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_demos
+[0.547s] Invoking command in '/ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/rtabmap_demos
+[0.575s] Invoked command in '/ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/rtabmap_demos
+[0.575s] Invoking command in '/ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/rtabmap_demos
+[0.580s] -- Install configuration: "Release"
+[0.580s] -- Execute custom install script
+[0.584s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_sim_vslam.launch.py
+[0.590s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_vslam.launch.py
+[0.597s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/find_object_demo.launch.py
+[0.604s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan2d_demo.launch.py
+[0.609s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_assemble_demo.launch.py
+[0.616s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_demo.launch.py
+[0.622s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam2d.launch.py
+[0.628s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d.launch.py
+[0.635s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d_assemble.launch.py
+[0.642s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_sim_vslam_demo.launch.py
+[0.649s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_vslam.launch.py
+[0.655s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/multisession_mapping_demo.launch.py
+[0.661s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/robot_mapping_demo.launch.py
+[0.668s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/stereo_outdoor_demo.launch.py
+[0.676s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd.launch.py
+[0.683s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_fake_scan.launch.py
+[0.688s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_scan.launch.py
+[0.694s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_scan.launch.py
+[0.702s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_demo.launch.py
+[0.708s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_fake_scan_demo.launch.py
+[0.714s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_scan_demo.launch.py
+[0.721s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_scan_demo.launch.py
+[0.727s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_sim_demo.launch.py
+[0.734s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_slam.launch.py
+[0.742s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/config/demo_robot_mapping.rviz
+[0.749s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/config/find_object.ini
+[0.756s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/champ_nav2_params.yaml
+[0.763s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/isaac_nav2_params.yaml
+[0.770s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/isaac_vslam_nav2_params.yaml
+[0.776s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_nav2_params.yaml
+[0.783s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_scan_nav2_params.yaml
+[0.789s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_scan_nav2_params.yaml
+[0.797s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/4.png
+[0.804s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/5.png
+[0.809s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/6.png
+[0.816s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/7.png
+[0.821s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/8.png
+[0.827s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/ament_index/resource_index/package_run_dependencies/rtabmap_demos
+[0.834s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/ament_index/resource_index/parent_prefix_path/rtabmap_demos
+[0.840s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.sh
+[0.846s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.dsv
+[0.853s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/environment/path.sh
+[0.859s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/environment/path.dsv
+[0.866s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.bash
+[0.871s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.sh
+[0.878s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.zsh
+[0.885s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.dsv
+[0.891s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/package.dsv
+[0.899s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/ament_index/resource_index/packages/rtabmap_demos
+[0.905s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+[0.911s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake
+[0.919s] -- Symlinking: /ros_ws/install/rtabmap_demos/share/rtabmap_demos/package.xml
+[0.927s] Invoked command in '/ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/rtabmap_demos

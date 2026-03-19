@@ -1,0 +1,1 @@
+/ros_ws/src/spot_driver/include/spot_driver/images/spot_image_publisher_node.hpp

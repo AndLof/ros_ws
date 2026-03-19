@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dd80cfd487f8e448805f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "spot_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "foot_state_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foot_state_broadcaster_parameters-Release-2c5ffb9287f979a22004.json",
+					"name" : "foot_state_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "forward_state_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-forward_state_controller_parameters-Release-ae62080cc8b95ae9309c.json",
+					"name" : "forward_state_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spot_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spot_controllers-Release-183a21863a35a2df3e5d.json",
+					"name" : "spot_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spot_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spot_controllers_uninstall-Release-f1420f1005de78d29154.json",
+					"name" : "spot_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spot_imu_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spot_imu_broadcaster_parameters-Release-897a9e4b1d4cd29f6bc2.json",
+					"name" : "spot_imu_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spot_joint_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spot_joint_controller_parameters-Release-ca67f4051d627e2f6f9d.json",
+					"name" : "spot_joint_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spot_pose_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spot_pose_broadcaster_parameters-Release-b178bfc368ce411d41cb.json",
+					"name" : "spot_pose_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7a2c3375e3d70f8a8254.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros_ws/build/spot_controllers",
+		"source" : "/ros_ws/src/spot_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

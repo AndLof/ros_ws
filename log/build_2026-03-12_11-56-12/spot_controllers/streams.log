@@ -1,0 +1,146 @@
+[0.009s] Invoking command in '/ros_ws/build/spot_controllers': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_controllers
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.425s] -- Found controller_interface: 2.53.1 (/opt/ros/humble/share/controller_interface/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.490s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.765s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.793s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.834s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.836s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.853s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.860s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.869s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.881s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.002s] -- Found Threads: TRUE  
+[1.060s] -- Found forward_command_controller: 2.52.0 (/opt/ros/humble/share/forward_command_controller/cmake)
+[1.129s] -- Found imu_sensor_broadcaster: 2.52.0 (/opt/ros/humble/share/imu_sensor_broadcaster/cmake)
+[1.138s] -- Found spot_msgs: 0.0.0 (/ros_ws/install/spot_msgs/share/spot_msgs/cmake)
+[1.206s] -- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+[1.216s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.220s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.304s] -- Checking for module 'grpc'
+[1.313s] --   Found grpc, version 10.0.0
+[1.335s] -- Checking for module 'grpc++'
+[1.343s] --   Found grpc++, version 1.30.2
+[1.372s] -- CMake is running /opt/spot-cpp-sdk/lib/cmake/bosdyn/UseInstallbosdyn.cmake
+[1.461s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.470s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.471s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.471s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.594s] -- Configuring done
+[1.616s] -- Generating done
+[1.622s] -- Build files have been written to: /ros_ws/build/spot_controllers
+[1.634s] Invoked command in '/ros_ws/build/spot_controllers' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros_ws/src/spot_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/spot_controllers
+[1.636s] Invoking command in '/ros_ws/build/spot_controllers': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_controllers
+[1.684s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /ros_ws/build/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp /ros_ws/src/spot_controllers/include/spot_controllers/parameters/forward_state_controller_parameters.yaml `[0m
+[1.889s] [ 11%] [34m[1mCreating deprecated header file /ros_ws/build/spot_controllers/include/forward_state_controller_parameters.hpp[0m
+[1.924s] [ 11%] Built target forward_state_controller_parameters
+[1.945s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /ros_ws/build/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp /ros_ws/src/spot_controllers/include/spot_controllers/parameters/spot_joint_controller_parameters.yaml `[0m
+[2.103s] [ 23%] [34m[1mCreating deprecated header file /ros_ws/build/spot_controllers/include/spot_joint_controller_parameters.hpp[0m
+[2.115s] [ 23%] Built target spot_joint_controller_parameters
+[2.129s] [ 29%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /ros_ws/build/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp /ros_ws/src/spot_controllers/include/spot_controllers/parameters/foot_state_broadcaster_parameters.yaml `[0m
+[2.275s] [ 35%] [34m[1mCreating deprecated header file /ros_ws/build/spot_controllers/include/foot_state_broadcaster_parameters.hpp[0m
+[2.289s] [ 35%] Built target foot_state_broadcaster_parameters
+[2.305s] [ 41%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /ros_ws/build/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp /ros_ws/src/spot_controllers/include/spot_controllers/parameters/spot_pose_broadcaster_parameters.yaml `[0m
+[2.562s] [ 47%] [34m[1mCreating deprecated header file /ros_ws/build/spot_controllers/include/spot_pose_broadcaster_parameters.hpp[0m
+[2.574s] [ 47%] Built target spot_pose_broadcaster_parameters
+[2.588s] [ 52%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /ros_ws/build/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp /ros_ws/src/spot_controllers/include/spot_controllers/parameters/spot_imu_broadcaster_parameters.yaml `[0m
+[2.877s] [ 58%] [34m[1mCreating deprecated header file /ros_ws/build/spot_controllers/include/spot_imu_broadcaster_parameters.hpp[0m
+[2.897s] [ 58%] Built target spot_imu_broadcaster_parameters
+[2.917s] [ 64%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/spot_controller_utils.cpp.o[0m
+[3.273s] [ 70%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/forward_state_controller.cpp.o[0m
+[7.838s] [ 76%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/spot_joint_controller.cpp.o[0m
+[18.589s] [ 82%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/foot_state_broadcaster.cpp.o[0m
+[24.475s] [ 88%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/spot_pose_broadcaster.cpp.o[0m
+[32.334s] [ 94%] [32mBuilding CXX object CMakeFiles/spot_controllers.dir/src/spot_imu_broadcaster.cpp.o[0m
+[38.978s] [100%] [32m[1mLinking CXX shared library libspot_controllers.so[0m
+[39.263s] [100%] Built target spot_controllers
+[39.272s] Invoked command in '/ros_ws/build/spot_controllers' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros_ws/build/spot_controllers
+[39.274s] Invoking command in '/ros_ws/build/spot_controllers': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_controllers
+[39.279s] -- Install configuration: "Release"
+[39.279s] -- Execute custom install script
+[39.280s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp
+[39.288s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp
+[39.294s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp
+[39.301s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp
+[39.306s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp
+[39.312s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp
+[39.312s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp
+[39.312s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp
+[39.312s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp
+[39.312s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp
+[39.313s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp
+[39.314s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp
+[39.314s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp
+[39.314s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/foot_state_broadcaster_parameters.hpp
+[39.315s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/forward_state_controller_parameters.hpp
+[39.315s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_imu_broadcaster_parameters.hpp
+[39.315s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp
+[39.315s] -- Up-to-date symlink: /ros_ws/install/spot_controllers/include/spot_controllers/spot_pose_broadcaster_parameters.hpp
+[39.315s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers//spot_controllers.xml
+[39.324s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/foot_state_broadcaster.hpp
+[39.339s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/forward_state_controller.hpp
+[39.348s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/parameters/foot_state_broadcaster_parameters.yaml
+[39.354s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/parameters/forward_state_controller_parameters.yaml
+[39.360s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/parameters/spot_imu_broadcaster_parameters.yaml
+[39.368s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/parameters/spot_joint_controller_parameters.yaml
+[39.374s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/parameters/spot_pose_broadcaster_parameters.yaml
+[39.380s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/spot_controller_utils.hpp
+[39.387s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/spot_imu_broadcaster.hpp
+[39.393s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/spot_joint_controller.hpp
+[39.401s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/spot_pose_broadcaster.hpp
+[39.408s] -- Symlinking: /ros_ws/install/spot_controllers/include/spot_controllers/spot_controllers/visibility_control.h
+[39.417s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/library_path.sh
+[39.422s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/library_path.dsv
+[39.428s] -- Symlinking: /ros_ws/install/spot_controllers/share/ament_index/resource_index/package_run_dependencies/spot_controllers
+[39.435s] -- Symlinking: /ros_ws/install/spot_controllers/share/ament_index/resource_index/parent_prefix_path/spot_controllers
+[39.441s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/ament_prefix_path.sh
+[39.447s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/ament_prefix_path.dsv
+[39.453s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/path.sh
+[39.458s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/environment/path.dsv
+[39.465s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/local_setup.bash
+[39.471s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/local_setup.sh
+[39.476s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/local_setup.zsh
+[39.483s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/local_setup.dsv
+[39.489s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/package.dsv
+[39.495s] -- Symlinking: /ros_ws/install/spot_controllers/share/ament_index/resource_index/packages/spot_controllers
+[39.501s] -- Symlinking: /ros_ws/install/spot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/spot_controllers
+[39.507s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.513s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[39.519s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/spot_controllersConfig.cmake
+[39.525s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/spot_controllersConfig-version.cmake
+[39.530s] -- Symlinking: /ros_ws/install/spot_controllers/share/spot_controllers/package.xml
+[39.537s] -- Installing: /ros_ws/install/spot_controllers/lib/libspot_controllers.so
+[39.538s] -- Set runtime path of "/ros_ws/install/spot_controllers/lib/libspot_controllers.so" to ""
+[39.538s] -- Installing: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport.cmake
+[39.538s] -- Installing: /ros_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport-release.cmake
+[39.540s] Invoked command in '/ros_ws/build/spot_controllers' returned '0': AMENT_PREFIX_PATH=/ros_ws/install/spot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros_ws/install/spot_msgs:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble LD_LIBRARY_PATH=/ros_ws/install/spot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros_ws/build/spot_controllers

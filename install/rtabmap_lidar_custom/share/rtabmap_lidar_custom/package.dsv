@@ -1,0 +1,9 @@
+source;share/rtabmap_lidar_custom/hook/pythonpath.ps1
+source;share/rtabmap_lidar_custom/hook/pythonpath.dsv
+source;share/rtabmap_lidar_custom/hook/pythonpath.sh
+source;share/rtabmap_lidar_custom/hook/ament_prefix_path.ps1
+source;share/rtabmap_lidar_custom/hook/ament_prefix_path.dsv
+source;share/rtabmap_lidar_custom/hook/ament_prefix_path.sh
+source;../../build/rtabmap_lidar_custom/share/rtabmap_lidar_custom/hook/pythonpath_develop.ps1
+source;../../build/rtabmap_lidar_custom/share/rtabmap_lidar_custom/hook/pythonpath_develop.dsv
+source;../../build/rtabmap_lidar_custom/share/rtabmap_lidar_custom/hook/pythonpath_develop.sh

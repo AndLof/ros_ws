@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/get_ptz_position__rosidl_typesupport_fastrtps_c.h

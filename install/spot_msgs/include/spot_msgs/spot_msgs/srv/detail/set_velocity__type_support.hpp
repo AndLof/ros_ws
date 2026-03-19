@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/detail/set_velocity__type_support.hpp

@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp

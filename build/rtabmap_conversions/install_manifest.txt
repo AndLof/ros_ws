@@ -1,0 +1,4 @@
+/ros_ws/install/rtabmap_conversions/lib/librtabmap_conversions.so
+/ros_ws/install/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h
+/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
+/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-release.cmake

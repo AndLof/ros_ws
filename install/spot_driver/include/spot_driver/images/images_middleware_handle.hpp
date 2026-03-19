@@ -1,0 +1,1 @@
+/ros_ws/src/spot_driver/include/spot_driver/images/images_middleware_handle.hpp

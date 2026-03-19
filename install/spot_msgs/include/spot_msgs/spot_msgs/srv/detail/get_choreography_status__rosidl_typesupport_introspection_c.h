@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/get_choreography_status__rosidl_typesupport_introspection_c.h

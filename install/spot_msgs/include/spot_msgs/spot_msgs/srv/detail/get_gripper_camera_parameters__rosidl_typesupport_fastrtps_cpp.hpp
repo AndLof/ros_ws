@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/get_gripper_camera_parameters__rosidl_typesupport_fastrtps_cpp.hpp

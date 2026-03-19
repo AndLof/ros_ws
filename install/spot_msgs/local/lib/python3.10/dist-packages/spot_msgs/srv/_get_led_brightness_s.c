@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/srv/_get_led_brightness_s.c

@@ -1,0 +1,1 @@
+/ros_ws/build/synchros2_tutorials_interfaces_example/rosidl_generator_c/synchros2_tutorials_interfaces_example/msg/detail/string__functions.h

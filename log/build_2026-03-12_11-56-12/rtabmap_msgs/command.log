@@ -1,0 +1,6 @@
+Invoking command in '/ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_msgs
+Invoked command in '/ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/rtabmap_msgs
+Invoking command in '/ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/rtabmap_msgs
+Invoked command in '/ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/rtabmap_msgs
+Invoking command in '/ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/rtabmap_msgs
+Invoked command in '/ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/rtabmap_msgs

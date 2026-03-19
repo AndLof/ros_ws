@@ -1,0 +1,1 @@
+/ros_ws/src/spot_ros2_control/launch/noarm_squat.launch.py

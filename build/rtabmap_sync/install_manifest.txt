@@ -1,0 +1,9 @@
+/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+/ros_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+/ros_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+/ros_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake

@@ -1,0 +1,10 @@
+/ros_ws/install/spot_driver/lib/spot_driver/spot_ros2
+/ros_ws/install/spot_driver/lib/spot_driver/spot_alerts
+/ros_ws/install/spot_driver/lib/libimage_stitcher.a
+/ros_ws/install/spot_driver/lib/liblease_manager_component.so
+/ros_ws/install/spot_driver/lib/libspot_api.a
+/ros_ws/install/spot_driver/lib/libspot_image_publisher_component.so
+/ros_ws/install/spot_driver/lib/libspot_inverse_kinematics_component.so
+/ros_ws/install/spot_driver/lib/libstate_publisher_component.so
+/ros_ws/install/spot_driver/share/spot_driver/cmake/spot_driverTargetsExport.cmake
+/ros_ws/install/spot_driver/share/spot_driver/cmake/spot_driverTargetsExport-release.cmake

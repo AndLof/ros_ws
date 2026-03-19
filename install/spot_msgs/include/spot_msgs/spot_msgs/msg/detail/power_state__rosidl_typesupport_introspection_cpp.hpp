@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/power_state__rosidl_typesupport_introspection_cpp.hpp

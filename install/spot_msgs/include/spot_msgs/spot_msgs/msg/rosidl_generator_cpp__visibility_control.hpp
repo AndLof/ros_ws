@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

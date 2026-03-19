@@ -1,0 +1,1 @@
+/ros_ws/build/synchros2_tutorials_interfaces_example/rosidl_generator_cpp/synchros2_tutorials_interfaces_example/action/detail/wait__struct.hpp

@@ -1,0 +1,1 @@
+/ros_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/detail/choreography_start_recording_state__struct.hpp
